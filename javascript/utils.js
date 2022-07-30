@@ -6,6 +6,8 @@ module.exports.getArraySorted = (length, max) => randomArray(length, max).sort((
    return a - b;
 })
 
+module.exports.getFillArray = (length) => Array(length).fill().map((item, index) => index * 1)
+
 module.exports.getGraph = () => {
    const graph = {
       a: ['b', 'e'],
