@@ -5,7 +5,7 @@ let count = 0
 /**
  * @description - Алгоритм сортировки выбором, сложность O(n*n).
  * @description - В цикле находим минимальное число в массиве и меняем его по индексу с первым элементов, далее со вторым и так далее.
- * @param {Array} array 
+ * @param {Array} arr 
  */
 function selectionSort(arr) {
    let n = arr.length;
