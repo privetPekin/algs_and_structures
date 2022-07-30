@@ -16,4 +16,4 @@ function linearSearch(array, item) {
    return null
 }
 console.log(linearSearch(array, 333))
-console.log('count =', count)
+console.log('count:', count)
