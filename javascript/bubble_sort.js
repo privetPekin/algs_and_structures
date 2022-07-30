@@ -5,7 +5,7 @@ let count = 0
 /**
  * @description - Алгоритм сортировки пузырьком, сложность O(n*n).
  * @description - В двух циклах проходимся по массиву и сравниваем попарно лежащие элементы, если следующий элемент > предудыщего, то мы меняем их местами
- * @param {Array} array 
+ * @param {Array} arr 
  */
 function bubbleSort(arr) {
    let len = arr.length;
