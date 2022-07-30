@@ -36,3 +36,85 @@ module.exports.getGraphDijkstra = () => {
       ]
    }
 }
+
+module.exports.getTree = () => {
+   return [
+      {
+         value: 13,
+         child: [
+            {
+               value: 7,
+               child: [
+                  {
+                     value: 35,
+                  }
+               ]
+            },
+            {
+               value: 31,
+               child: [
+                  {
+                     value: 8,
+                     child: [
+                        {
+                           value: 646,
+                           child: [
+                              {
+                                 value: 13
+                              },
+                              {
+                                 value: 55
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         value: 13,
+         child: [
+            {
+               value: 13,
+               child: [
+                  {
+                     value: 13,
+                     child: [
+                        {
+                           value: 13
+                        },
+                        {
+                           value: 55,
+                           child: [
+                              {
+                                 value: 13
+                              },
+                              {
+                                 value: 55,
+                                 child: [
+                                    {
+                                       value: 13
+                                    },
+                                    {
+                                       value: 55
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     value: 55
+                  }
+               ]
+            },
+            {
+               value: 55
+            }
+         ]
+      }
+   ]
+}
