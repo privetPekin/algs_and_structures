@@ -1,9 +1,8 @@
 const { randomArray } = require("./utils");
-const array = randomArray(100, 100)
+const array = randomArray(10000, 1000)
 let count = 0
 /**
- * @description - Алгоритм линейнего поиска, сложность O(n), где
- * n - количество операций или же длина массива.
+ * @description - Алгоритм линейнего поиска, сложность O(n)
  * @param {Array} array 
  * @param {string | number} item 
  */
@@ -16,5 +15,5 @@ function linearSearch(array, item) {
    }
    return null
 }
-console.log(linearSearch(array, 11))
-console.log('count = ', count)
+console.log(linearSearch(array, 333))
+console.log('count =', count)
