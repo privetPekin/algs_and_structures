@@ -39,7 +39,7 @@
 ## Authors
 
   - **Nikita Vtorushin** -
-    [privetPekin](https://github.com/privetPekin)
+    [VNS0](https://github.com/vns0) [ABOUT ME](https://vns.guru)
 
 ## License
 
