@@ -2,7 +2,11 @@
 #include <vector>
 #include "utils.h"
 
-
+/**
+ * @description - Алгоритм сортировки выбором, сложность O(n*n).
+ * @description - В цикле находим минимальное число в массиве и меняем его по индексу с первым элементов, далее со вторым и так далее.
+ * @param {Array} arr 
+ */
 void selectionSort(std::vector<int>& arr) {
     int n = arr.size();
     int count = 0;
