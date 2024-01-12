@@ -5,6 +5,7 @@
 #include <vector>
 #include <cstdlib>
 #include <ctime>
+#include <unordered_map>
 
 std::vector<int> randomArray(int length, int max) {
     std::vector<int> array;
@@ -31,4 +32,17 @@ int* getArraySorted(int length, int max) {
     std::sort(array, array + length);
 
     return array;
+}
+
+std::unordered_map<char, std::vector<char>> getGraph() {
+    std::unordered_map<char, std::vector<char>> graph = {
+        {'a', {'b', 'e'}},
+        {'b', {'e', 'f'}},
+        {'c', {'d', 'a'}},
+        {'d', {'a'}},
+        {'e', {'e'}},
+        {'f', {'b'}}
+    };
+
+    return graph;
 }
